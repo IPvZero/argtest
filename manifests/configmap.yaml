@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: web-content
+data:
+  index.html: |
+    <html>
+        <h1>Welcome to my John's site!</h1>
+    </html>
